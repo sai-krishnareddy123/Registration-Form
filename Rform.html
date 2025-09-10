@@ -128,7 +128,7 @@
       }
 
       // Password validation with regex (min 8 chars, at least 1 letter and 1 number)
-      const passwordPattern =/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;;
+      const passwordPattern =/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
       if (!passwordPattern.test(password)) {
         passwordError.textContent = " Password must be at least 8 characters, include letters and numbers";
         valid = false;
@@ -147,3 +147,4 @@
 </body>
 
 </html>
+
