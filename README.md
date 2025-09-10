@@ -1,3 +1,1 @@
 ﻿Read me file
-
-;ojjfdxfvcjuhmtdx vcjb  gfhvnlj.,nmngjm
